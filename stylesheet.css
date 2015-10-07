@@ -1,0 +1,55 @@
+body {
+    background: url("brickwall.png");
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: #1982B7;
+  font-size: 3em;
+  margin-bottom: -5%;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  color: #556270;
+  text-shadow: black 1px 1px 0px;
+  font-size: 2em;
+  margin-bottom: -1%;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+}
+
+li {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+}
+
+.content {
+  margin-left: 10%;
+}
+
+#low-vision {
+  float: right;
+  margin-right: 10%;
+}
+
+#email {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  padding-top: 20px;
+}
+
+#social-links {
+ margin-left: 41.5%;
+}
+
+#footer {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  margin: 8% 0 3% 0;
+}
