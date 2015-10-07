@@ -5,18 +5,21 @@ body {
 h1 {
   text-align: center;
   font-family: 'Rock Salt', cursive;
-  color: #1982B7;
+  color: #0ea7b5;
+  text-shadow: black 2px 2px 0px;
   font-size: 3em;
   margin: 0 auto;
 }
 
 h4 {
-  text-align: left;
+  text-align: center;
   font-family: 'Playfair Display', serif;
-  color: #556270;
+  color: #0c457d;
   text-shadow: black 1px 1px 0px;
   font-size: 2em;
   margin-bottom: -1%;
+  width: 25%;
+  border: 3px dotted #4f372d;
 }
 
 p {
@@ -33,9 +36,39 @@ li {
   margin-left: 10%;
 }
 
+.changeTextColors h1 {
+  color: #306009;
+}
+
+.changeTextColors h4 {
+  border: 3px dotted #92CF17;
+  color: #92CF17;
+}
+
+.changeTextColors .revealPlaceHolder {
+  background-color: #6C6A70;
+}
+
+.changeTextColors .revealPlaceHolder:hover {
+  background-color: pink;
+  color: #306009;
+}
+
+.changeTextColors p {
+  color: white;
+}
+
+.changeTextColors li {
+  color: lightblue;
+}
+
 #low-vision {
   float: right;
   margin-right: 10%;
+}
+
+#social-links img {
+  background-color: white;
 }
 
 #email {
@@ -62,10 +95,15 @@ li {
 }
 
 #panel {
+  display: none;
   text-align: center;
   font-family: 'Rock Salt', cursive;
   color: black;
   font-size: 1em;
+}
+
+.clicked-image {
+  width: 300px;
 }
 
 .reference-contact.hidden {
