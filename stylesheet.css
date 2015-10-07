@@ -67,6 +67,10 @@ li {
   margin-right: 10%;
 }
 
+#social-links img {
+  background-color: white;
+}
+
 #email {
   text-align: center;
   font-family: 'Abel', sans-serif;
