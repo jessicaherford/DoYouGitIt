@@ -6,11 +6,11 @@
 
 1. When one of the project images is clicked, it should expand to 300px wide.
 
+1. When hovering over the Twitter, Instagram, and LinkedIn buttons, the background behind the buttons should turn   #6bd2db. This has not been loaded into a CSS class and must be done within the function. Make sure you get those corners rounded so the color doesn't pop out in the corners!
+
 1. When clicking the "Alternate Color Theme" button, it should toggle the "changeTextColors" class.
    Additionally, the h4 tag hover that you created in #2 should turn white.
    Also, the background should change to the dark_embroidery.png image located the images directory.
-
-1. When hovering over the Twitter, Instagram, and LinkedIn buttons, the background behind the buttons should turn   #6bd2db. This has not been loaded into a CSS class and must be done within the function. Make sure you get those corners rounded so the color doesn't pop out in the corners!
 
 1. Bonus:
    The contact area contains a span that can be clicked to reveal the contact info. The HTML and CSS have been
