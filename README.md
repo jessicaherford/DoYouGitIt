@@ -6,13 +6,15 @@
 
 1. When one of the project images is clicked, it should expand to 300px wide.
 
+1. 1. When clicking the "Alternate Color Theme" button, it should toggle the "changeTextColors" class.
+   Additionally, the h4 tag hover that you created in #2 should turn white.
+   Also, the background should change to the dark_embroidery.png image located the images directory.
+   
 1. Bonus:
    The contact area contains a span that can be clicked to reveal the contact info. The HTML and CSS have been
    written for you to enable this functionality with jQuery. The user should click a button next to the person's name to reveal the phone number and email address.
 
-1. When clicking the "Alternate Color Theme" button, it should toggle the "changeTextColors" class.
-   Additionally, the h4 tag hover that you created in #2 should turn white.
-   Also, the background should change to the dark_embroidery.png image located the images directory.
+
 
 ##Sources##
 
