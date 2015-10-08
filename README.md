@@ -2,6 +2,7 @@
 1. The text under "Click for short bio" should not be visible unless the user clicks the flip id.
    Hint: Google the jQuery slideToggle function
 
+
 1. When hovering over the h4 tags (Objective, Experience, etc..), the inside of the dotted box should turn light blue and remain light blue.
 
 1. When one of the project images is clicked, it should expand to 300px wide.
