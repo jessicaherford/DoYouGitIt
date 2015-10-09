@@ -69,6 +69,7 @@ li {
 
 #social-links img {
   background-color: white;
+  border-radius: 20px;
 }
 
 #email {
@@ -79,6 +80,7 @@ li {
 
 #social-links {
  margin-left: 41.5%;
+ border-radius: 15px;
 }
 
 #footer {
