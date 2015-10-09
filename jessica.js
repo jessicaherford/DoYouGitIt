@@ -5,7 +5,9 @@ $(document).ready(function(){
 });
 
   $('h4').hover(function(){
-    $(this).css('background', 'blue');
+    $(this).css('background', '#631D76');
+    $(this).css('color', '#F3F3F3')
+    $(this).css('border',' 3px groove #F3F3F3' )
   })
 
   $('.project-image').click(function(){
@@ -13,13 +15,19 @@ $(document).ready(function(){
   })
 
   $('#social-links a img').hover(function(){
-    $(this).css('background-color', 'blue');
-    $(this).css('border-radius', '10px');
+    $(this).css('background-color', '#631D76');
+    $(this).css('border-radius', '20px');
   })
 
   $('#social-links a img').mouseout(function() {
-    $(this).css('background-color', '#FFF68F');
+    $(this).css('background-color', '#F3F3F3');
   });
+
+  $( ".reference-contact" ).hide();
+
+  $(".reference-contact").click(function() {
+    $(this).show('.reference-contact');
+  })
 
   /*$('#low-vision').click(function(){
     $('h1').css('color', '#306009');
